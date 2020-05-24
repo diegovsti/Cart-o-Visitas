@@ -1,0 +1,42 @@
+/* estilo do card */
+.card{
+    width: 400px;
+    height: 200px;
+    background-image: url(../programadorbr/images/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 200px auto;
+    box-shadow: 4px 4px 10px #ccc;
+    border-radius: 10px;
+}
+
+/* tirando o estilo da lista e dando uma margem interna de 30px */
+ul{
+    list-style: none;
+    padding-top: 30px;
+}
+
+/* mudando o tamanho da fonte do conteudo e a familia da fonte */
+li {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* tirando a decoração do link, colocando a cor em preto, e dando uma animação de entrada de 1 segundo */
+li a{
+    text-decoration: none;
+    color: #000;
+    transition: ease-in 1s;
+}
+
+/* qunado passar em cima, a cor do link fica azul e tem uma transição de meio segundo */
+li a:hover{
+    color: cadetblue;
+    transition: ease-in .5s;
+}
+
+/* tamanho e largura da imagem de 42 pixels */
+li img {
+    width: 42px;
+    height: 42px;
+}
